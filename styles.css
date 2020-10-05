@@ -1,0 +1,53 @@
+body{
+    font-size: 30px;
+    text-align: center;
+}   
+h1 {
+    font-size: 100px;
+}
+h2 {
+    font-family: monospace;
+    font-size: 2.5em;
+    text-decoration: underline;
+    text-align: center;
+}
+p {
+    font-family: cursive;
+}
+#title{     
+    text-align: center;
+    font-size: 70px;
+}
+.image{
+    width: 400px;
+    height: 400px;
+}
+table {
+    width: 1000px;
+}
+th {
+    text-align: left;
+}
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+} 
+th, td {
+    padding: 10px;
+}
+tr:nth-child(even) {
+    background-color: rgba(25, 106, 228, .7);
+}
+tr:nth-child(odd) {
+    background-color: rgba(0,0,0,.6);
+}
+.circle {
+    width: 1000px;
+    height: 1000px ;
+    background: rgb(255, 255, 255);
+    border: 10px solid black;
+    margin: 0 auto;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
