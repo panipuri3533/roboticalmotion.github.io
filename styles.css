@@ -52,5 +52,5 @@ tr:nth-child(odd) {
     place-items: center;
 }
 .info {
-    text-align: center;
+    text-align: left;
 }
