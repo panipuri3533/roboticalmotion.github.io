@@ -51,6 +51,3 @@ tr:nth-child(odd) {
     display: grid;
     place-items: center;
 }
-.info {
-    text-align: left;
-}
